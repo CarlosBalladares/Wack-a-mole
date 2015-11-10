@@ -1,0 +1,105 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.whackgregor.whackgregor.activities.MainActivity"
+    android:theme="@android:style/Theme.Black.NoTitleBar"
+    android:background="#1a6425">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/game_title"
+        android:id="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:textSize="45sp"
+        android:textColor="#ffffff"
+        android:typeface="monospace" />
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rowCount="8"
+        android:columnCount="17"
+        android:orientation="horizontal"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/hole1"
+            android:layout_row="5"
+            android:layout_column="0"
+            android:background="@drawable/hole" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/hole2"
+            android:layout_row="5"
+            android:layout_column="10"
+            android:background="@drawable/hole" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/hole3"
+            android:layout_row="5"
+            android:layout_column="15"
+            android:background="@drawable/hole" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/hole4"
+            android:layout_row="6"
+            android:layout_column="0"
+            android:background="@drawable/hole" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/hole5"
+            android:layout_row="6"
+            android:layout_column="10"
+            android:background="@drawable/hole" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/hole6"
+            android:layout_row="6"
+            android:layout_column="15"
+            android:background="@drawable/hole" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/hole7"
+            android:layout_row="7"
+            android:layout_column="0"
+            android:background="@drawable/hole" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/hole8"
+            android:layout_row="7"
+            android:layout_column="10"
+            android:background="@drawable/hole" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/hole9"
+            android:layout_row="7"
+            android:layout_column="15"
+            android:background="@drawable/hole" />
+
+    </GridLayout>
+</RelativeLayout>
