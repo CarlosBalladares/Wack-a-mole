@@ -10,7 +10,7 @@ import com.whackgregor.whackgregor.R;
 
 
 /**
- * Created by carlosballadares on 15-11-11.
+ * Created by carlosballadgares on 15-11-11.
  */
 public class HoleView extends ImageView {
 
